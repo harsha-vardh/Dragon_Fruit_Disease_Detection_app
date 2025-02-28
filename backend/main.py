@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # Load trained model
-MODEL = tf.keras.models.load_model(r"C:\Users\NAGASAI\OneDrive\Desktop\Hack\trained_model.keras")
+MODEL = tf.keras.models.load_model("path_to_your_model")
 
 # Define class names
 CLASS_NAMES = ["Good fruit", "soft rot", "fruit rot", "anthracnose", "stem canker"]
